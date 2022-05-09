@@ -14,7 +14,7 @@ app.get("/", (req,res) => {
 app.get('/hello/:name', (req,res) => {
     res.send("Hello workd from " +  req.params.name);
 });
-
+ 
 app.get("/about", (req,res) => {
     res.send("he;lllow abutgjoabnas");
     //    res.send("This is my first express app with vishnu");
